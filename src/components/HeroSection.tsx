@@ -10,7 +10,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gen4sa-cream via-background to-gen4sa-blue/10 relative overflow-hidden">
+    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gen4sa-cream via-white to-gen4sa-blue/10 relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-20 w-32 h-32 bg-gen4sa-blue rounded-full blur-3xl"></div>
@@ -30,7 +30,7 @@ const HeroSection = () => {
 
           {/* Subtitle */}
           <div data-aos="fade-up" data-aos-delay="200">
-            <h2 className="font-poppins text-xl md:text-2xl text-muted-foreground mb-4 font-medium">
+            <h2 className="font-poppins text-xl md:text-2xl text-gray-700 mb-4 font-medium">
               Generasi Alumni
             </h2>
             <h3 className="font-poppins text-2xl md:text-3xl text-gen4sa-navy mb-8 font-semibold">
@@ -40,7 +40,7 @@ const HeroSection = () => {
 
           {/* Description */}
           <div data-aos="fade-up" data-aos-delay="400">
-            <p className="font-poppins text-lg md:text-xl text-muted-foreground mb-12 leading-relaxed max-w-3xl mx-auto">
+            <p className="font-poppins text-lg md:text-xl text-gray-600 mb-12 leading-relaxed max-w-3xl mx-auto">
               Menghubungkan generasi alumni dalam satu ikatan yang kuat, berbagi cerita, prestasi, 
               dan membangun masa depan yang lebih baik bersama.
             </p>
@@ -53,21 +53,21 @@ const HeroSection = () => {
                 <Users className="w-8 h-8 text-gen4sa-blue" />
               </div>
               <div className="font-bold text-3xl text-gen4sa-navy mb-2">500+</div>
-              <div className="text-muted-foreground font-medium">Alumni Terdaftar</div>
+              <div className="text-gray-600 font-medium">Alumni Terdaftar</div>
             </div>
             <div className="text-center" data-aos="fade-up" data-aos-delay="700">
               <div className="w-16 h-16 bg-gen4sa-gold/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Calendar className="w-8 h-8 text-gen4sa-gold" />
               </div>
               <div className="font-bold text-3xl text-gen4sa-navy mb-2">25+</div>
-              <div className="text-muted-foreground font-medium">Tahun Berkarya</div>
+              <div className="text-gray-600 font-medium">Tahun Berkarya</div>
             </div>
             <div className="text-center" data-aos="fade-up" data-aos-delay="800">
               <div className="w-16 h-16 bg-gen4sa-navy/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Award className="w-8 h-8 text-gen4sa-navy" />
               </div>
               <div className="font-bold text-3xl text-gen4sa-navy mb-2">100+</div>
-              <div className="text-muted-foreground font-medium">Prestasi Dicapai</div>
+              <div className="text-gray-600 font-medium">Prestasi Dicapai</div>
             </div>
           </div>
 

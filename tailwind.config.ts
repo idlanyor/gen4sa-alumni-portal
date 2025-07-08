@@ -68,10 +68,10 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				gen4sa: {
-					blue: 'hsl(var(--gen4sa-blue))',
-					gold: 'hsl(var(--gen4sa-gold))',
-					navy: 'hsl(var(--gen4sa-navy))',
-					cream: 'hsl(var(--gen4sa-cream))'
+					blue: '#1e40af',
+					gold: '#f59e0b',
+					navy: '#1e3a8a',
+					cream: '#fef3c7'
 				}
 			},
 			borderRadius: {
