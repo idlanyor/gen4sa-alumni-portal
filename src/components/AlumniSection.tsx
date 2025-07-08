@@ -43,7 +43,7 @@ const AlumniSection = () => {
   return (
     <section id="alumni" className="py-20 bg-white">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16" data-aos="fade-up">
           <h2 className="font-playfair text-4xl md:text-5xl font-bold text-gen4sa-navy mb-6">
             Alumni Berprestasi
           </h2>
@@ -56,7 +56,7 @@ const AlumniSection = () => {
         {/* Alumni Statistics */}
         <div className="grid grid-cols-2 md:grid-cols-5 gap-6 mb-16">
           {alumniStats.map((stat, index) => (
-            <div key={index} className="text-center bg-gray-50 rounded-xl p-6 hover:bg-gen4sa-blue/5 transition-colors">
+            <div key={index} className="text-center bg-gray-50 rounded-xl p-6 hover:bg-gen4sa-blue/5 transition-colors" data-aos="fade-up" data-aos-delay={index * 100}>
               <div className="text-4xl mb-3">{stat.icon}</div>
               <div className="font-bold text-2xl text-gen4sa-navy mb-2">{stat.number}</div>
               <div className="text-gray-600 text-sm font-medium">{stat.label}</div>
@@ -66,8 +66,8 @@ const AlumniSection = () => {
 
         {/* Featured Alumni */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
-          {featuredAlumni.map((alumni) => (
-            <div key={alumni.id} className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 overflow-hidden">
+          {featuredAlumni.map((alumni, index) => (
+            <div key={alumni.id} className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 overflow-hidden" data-aos="fade-up" data-aos-delay={index * 200}>
               <div className="relative">
                 <img
                   src={alumni.image}
@@ -111,7 +111,7 @@ const AlumniSection = () => {
         </div>
 
         {/* Call to Action */}
-        <div className="bg-gradient-to-r from-gen4sa-blue to-gen4sa-navy rounded-2xl p-8 md:p-12 text-center text-white">
+        <div className="bg-gradient-to-r from-gen4sa-blue to-gen4sa-navy rounded-2xl p-8 md:p-12 text-center text-white" data-aos="fade-up">
           <h3 className="font-playfair text-3xl md:text-4xl font-bold mb-4">
             Bergabunglah dengan Kami!
           </h3>

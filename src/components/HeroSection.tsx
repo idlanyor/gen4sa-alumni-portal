@@ -21,7 +21,7 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 pt-16 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
           {/* Main Heading */}
-          <div className="animate-fade-in-up">
+          <div data-aos="fade-up" data-aos-delay="0">
             <h1 className="font-playfair text-5xl md:text-7xl font-bold text-gen4sa-navy mb-6 leading-tight">
               Gen<span className="text-gen4sa-blue">4</span>sa
             </h1>
@@ -29,7 +29,7 @@ const HeroSection = () => {
           </div>
 
           {/* Subtitle */}
-          <div className="animate-fade-in-up" style={{animationDelay: '0.2s'}}>
+          <div data-aos="fade-up" data-aos-delay="200">
             <h2 className="font-poppins text-xl md:text-2xl text-gray-700 mb-4 font-medium">
               Generasi Alumni
             </h2>
@@ -39,7 +39,7 @@ const HeroSection = () => {
           </div>
 
           {/* Description */}
-          <div className="animate-fade-in-up" style={{animationDelay: '0.4s'}}>
+          <div data-aos="fade-up" data-aos-delay="400">
             <p className="font-poppins text-lg md:text-xl text-gray-600 mb-12 leading-relaxed max-w-3xl mx-auto">
               Menghubungkan generasi alumni dalam satu ikatan yang kuat, berbagi cerita, prestasi, 
               dan membangun masa depan yang lebih baik bersama.
@@ -47,22 +47,22 @@ const HeroSection = () => {
           </div>
 
           {/* Stats */}
-          <div className="animate-fade-in-up grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 max-w-2xl mx-auto" style={{animationDelay: '0.6s'}}>
-            <div className="text-center">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 max-w-2xl mx-auto">
+            <div className="text-center" data-aos="fade-up" data-aos-delay="600">
               <div className="w-16 h-16 bg-gen4sa-blue/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Users className="w-8 h-8 text-gen4sa-blue" />
               </div>
               <div className="font-bold text-3xl text-gen4sa-navy mb-2">500+</div>
               <div className="text-gray-600 font-medium">Alumni Terdaftar</div>
             </div>
-            <div className="text-center">
+            <div className="text-center" data-aos="fade-up" data-aos-delay="700">
               <div className="w-16 h-16 bg-gen4sa-gold/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Calendar className="w-8 h-8 text-gen4sa-gold" />
               </div>
               <div className="font-bold text-3xl text-gen4sa-navy mb-2">25+</div>
               <div className="text-gray-600 font-medium">Tahun Berkarya</div>
             </div>
-            <div className="text-center">
+            <div className="text-center" data-aos="fade-up" data-aos-delay="800">
               <div className="w-16 h-16 bg-gen4sa-navy/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Award className="w-8 h-8 text-gen4sa-navy" />
               </div>
@@ -72,7 +72,7 @@ const HeroSection = () => {
           </div>
 
           {/* CTA Button */}
-          <div className="animate-fade-in-up" style={{animationDelay: '0.8s'}}>
+          <div data-aos="fade-up" data-aos-delay="900">
             <button
               onClick={scrollToNext}
               className="bg-gradient-to-r from-gen4sa-blue to-gen4sa-navy text-white px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 inline-flex items-center space-x-2"

@@ -98,7 +98,7 @@ const GallerySection = () => {
   return (
     <section id="gallery" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16" data-aos="fade-up">
           <h2 className="font-playfair text-4xl md:text-5xl font-bold text-gen4sa-navy mb-6">
             Galeri & Dokumentasi
           </h2>
@@ -109,7 +109,7 @@ const GallerySection = () => {
         </div>
 
         {/* Category Filter */}
-        <div className="flex flex-wrap justify-center gap-4 mb-12">
+        <div className="flex flex-wrap justify-center gap-4 mb-12" data-aos="fade-up" data-aos-delay="200">
           {categories.map((category) => (
             <button
               key={category.id}
@@ -132,6 +132,8 @@ const GallerySection = () => {
               key={item.id}
               className="group cursor-pointer bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105"
               onClick={() => openModal(index)}
+              data-aos="fade-up"
+              data-aos-delay={index * 100}
             >
               <div className="relative overflow-hidden h-64">
                 <img

@@ -5,7 +5,7 @@ const AboutSection = () => {
   return (
     <section id="about" className="py-20 bg-white">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16" data-aos="fade-up">
           <h2 className="font-playfair text-4xl md:text-5xl font-bold text-gen4sa-navy mb-6">
             Tentang Gen4sa
           </h2>
@@ -17,7 +17,7 @@ const AboutSection = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
-          <div className="space-y-6">
+          <div className="space-y-6" data-aos="fade-right">
             <h3 className="font-playfair text-3xl font-bold text-gen4sa-navy mb-6">
               Sejarah & Visi Kami
             </h3>
@@ -32,7 +32,7 @@ const AboutSection = () => {
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-              <div className="flex items-start space-x-4">
+              <div className="flex items-start space-x-4" data-aos="fade-right" data-aos-delay="300">
                 <div className="w-12 h-12 bg-gen4sa-blue/10 rounded-lg flex items-center justify-center flex-shrink-0">
                   <Heart className="w-6 h-6 text-gen4sa-blue" />
                 </div>
@@ -42,7 +42,7 @@ const AboutSection = () => {
                 </div>
               </div>
               
-              <div className="flex items-start space-x-4">
+              <div className="flex items-start space-x-4" data-aos="fade-right" data-aos-delay="400">
                 <div className="w-12 h-12 bg-gen4sa-gold/10 rounded-lg flex items-center justify-center flex-shrink-0">
                   <Target className="w-6 h-6 text-gen4sa-gold" />
                 </div>
@@ -54,7 +54,7 @@ const AboutSection = () => {
             </div>
           </div>
 
-          <div className="relative">
+          <div className="relative" data-aos="fade-left">
             <div className="bg-gradient-to-br from-gen4sa-blue/10 to-gen4sa-gold/10 rounded-2xl p-8 h-96 flex items-center justify-center">
               <div className="text-center">
                 <School className="w-24 h-24 text-gen4sa-blue mx-auto mb-4" />
@@ -69,7 +69,7 @@ const AboutSection = () => {
 
         {/* Mission Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="bg-gradient-to-br from-gen4sa-blue/5 to-gen4sa-blue/10 rounded-xl p-8 text-center hover:shadow-lg transition-shadow">
+          <div className="bg-gradient-to-br from-gen4sa-blue/5 to-gen4sa-blue/10 rounded-xl p-8 text-center hover:shadow-lg transition-shadow" data-aos="fade-up" data-aos-delay="100">
             <div className="w-16 h-16 bg-gen4sa-blue rounded-full flex items-center justify-center mx-auto mb-6">
               <Users className="w-8 h-8 text-white" />
             </div>
@@ -81,7 +81,7 @@ const AboutSection = () => {
             </p>
           </div>
 
-          <div className="bg-gradient-to-br from-gen4sa-gold/5 to-gen4sa-gold/10 rounded-xl p-8 text-center hover:shadow-lg transition-shadow">
+          <div className="bg-gradient-to-br from-gen4sa-gold/5 to-gen4sa-gold/10 rounded-xl p-8 text-center hover:shadow-lg transition-shadow" data-aos="fade-up" data-aos-delay="200">
             <div className="w-16 h-16 bg-gen4sa-gold rounded-full flex items-center justify-center mx-auto mb-6">
               <School className="w-8 h-8 text-white" />
             </div>
@@ -93,7 +93,7 @@ const AboutSection = () => {
             </p>
           </div>
 
-          <div className="bg-gradient-to-br from-gen4sa-navy/5 to-gen4sa-navy/10 rounded-xl p-8 text-center hover:shadow-lg transition-shadow">
+          <div className="bg-gradient-to-br from-gen4sa-navy/5 to-gen4sa-navy/10 rounded-xl p-8 text-center hover:shadow-lg transition-shadow" data-aos="fade-up" data-aos-delay="300">
             <div className="w-16 h-16 bg-gen4sa-navy rounded-full flex items-center justify-center mx-auto mb-6">
               <Target className="w-8 h-8 text-white" />
             </div>

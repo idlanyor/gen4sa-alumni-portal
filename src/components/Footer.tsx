@@ -10,7 +10,7 @@ const Footer = () => {
         {/* Main Footer Content */}
         <div className="py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand Section */}
-          <div className="lg:col-span-2">
+          <div className="lg:col-span-2" data-aos="fade-up">
             <div className="flex items-center space-x-3 mb-6">
               <div className="w-12 h-12 bg-gradient-to-r from-gen4sa-blue to-gen4sa-gold rounded-full flex items-center justify-center">
                 <GraduationCap className="w-7 h-7 text-white" />
@@ -41,7 +41,7 @@ const Footer = () => {
           </div>
 
           {/* Quick Links */}
-          <div>
+          <div data-aos="fade-up" data-aos-delay="200">
             <h4 className="font-playfair text-lg font-bold mb-6">Navigasi</h4>
             <ul className="space-y-3">
               <li>
@@ -80,7 +80,7 @@ const Footer = () => {
           </div>
 
           {/* Contact Info */}
-          <div>
+          <div data-aos="fade-up" data-aos-delay="400">
             <h4 className="font-playfair text-lg font-bold mb-6">Kontak</h4>
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
